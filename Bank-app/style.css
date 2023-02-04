@@ -1,0 +1,163 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#welcome {
+  font-weight: 800;
+}
+
+.nav img {
+  background-color: rgb(30, 31, 31);
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.nav input {
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin-right: 3px;
+  text-align: center;
+}
+
+#btn-login {
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: #f3f3f3;
+}
+#btn-login:hover {
+  color: grey;
+  transition: all 0.3s;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.main {
+  display: flex;
+  margin: 100px;
+  justify-content: space-around;
+}
+.main > .account-summary {
+  background-color: rgb(255, 253, 253);
+  padding: 25px;
+  border-radius: 25px;
+  height: 400px;
+  overflow: scroll;
+}
+.main > .account-summary > #summary {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  align-items: center;
+}
+
+.main > .account-summary > #summary #send {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(255, 187, 60);
+  margin-right: 3px;
+}
+.main > .account-summary > #summary #credit {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(175, 232, 175);
+  margin-right: 3px;
+}
+.main .account-summary #summary #comming {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: #ff585f;
+  margin-right: 3px;
+}
+hr {
+  margin-top: 1px;
+}
+
+.operetion .operetion-div {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 187, 60);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.operetion input {
+  width: 70px;
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(235, 209, 161);
+}
+
+.btn-operetion {
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(235, 209, 161);
+}
+.btn-operetion:hover {
+  color: white;
+  transition: all 0.3s;
+}
+
+.operetion .kredi-money {
+  background-color: #9be15d;
+}
+
+.operetion .close-account {
+  background-color: #ff585f;
+}
+
+.close-account p {
+  margin-bottom: 0px;
+}
+
+.displaynone {
+  display: none;
+}
+
+.warning-message {
+  position: absolute;
+  right: 30%;
+  top: 20%;
+  height: 100px;
+  width: 600px;
+  background-color: #ff585f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#btn_popup {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.acc-movments-info {
+  position: absolute;
+  right: 60%;
+  top: 30%;
+}
